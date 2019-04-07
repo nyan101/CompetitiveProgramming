@@ -11,7 +11,7 @@ for test_case in range(1, T+1):
     msg  = []
     pset = set()
     idx = 0
-    while(code[i]==code[i+1]):
+    while(code[idx]==code[idx+1]):
         idx += 1
 
     p = code[idx] // gcd(code[idx], code[idx+1])
